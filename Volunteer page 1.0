@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>waterpollution-volunteer</title>
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <style>
+			body {
+				background-color:rgb(204, 252, 255);
+				text-align: center;
+			}
+			h1 {font-family: 'Pacifico', cursive;
+		    color: black;
+				text-align: center;
+				font-size:50px;
+			}
+			h2 {font-family: 'Pacifico', cursive;
+				color: black;
+				font-size:35px;
+			}
+			h3 {font-family: 'Pacifico', cursive;
+				color: black;
+				font-size:25px;
+			}
+
+			p { font-family: 'Muli', sans-serif;
+			font-size:25px;
+			  color:black; 
+			}
+			div.column {
+				float: center;\
+				width: 100%;
+			}
+			img {
+				border: 10px solid white;
+			}
+			img.black {
+				border: 10px solid black;
+				margin-bottom: 30px;
+				width:457px;
+			}
+			</style>
+      </head>
+	
+	<body>
+    
+    <script>
+    function myFunction() {
+      var checkBox = document.getElementById("myCheck");
+      var input = document.getElementById("input");
+      if (checkBox.checked == true){
+        text.style.display = "block";
+      }     
+      else {
+          text.style.display = "none";
+      }
+    }
+</script>
+		<div class="column">
+      
+			<h1>Volunteering</h1>
+      <img class='black' src="https://ocean.si.edu/sites/default/files/styles/photo_full/public/7990147080_72948ec3e3_k.jpg?itok=-i-pNGSu">
+			<h2>Fill out your information to help us find the best volunteering opportunity for you!</h2>
+			
+		</div>
+    <form action="/action_page.php">
+    <h3>Transportation </h3>
+    <input value="Enter your Zipcode"> <br>
+    <input type="checkbox" name="vehicle" value="public transportation"> I need to use public Transportation<br>
+  <input type="checkbox"   name="vehicle" value="Car" > I have a car<br>
+  <input value="How far can you drive?">
+  <h3>What are you interested in?  </h3>
+  <input type="checkbox" name="vehicle" value="trash">Cleaning up trash <br> 
+  <input type="checkbox" name="vehicle" value="educating">Educating others <br>
+  <input type="checkbox" name="vehicle" value="working">Working at conventions and events <br>
+  <input type="checkbox" name="vehicle" value="door">Going door to door <br>
+    <input type="submit" value="Submit">
+    </form>
+		<div class="column">
+			<img class='black' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZT3je_u95HmPNAbOn2VfGzYeGR6blRzxMUqOE5i_jPl1ATUbAqQ">
+			<h1 class="black"></h1>
+			<p></p>
+		</div>
+	</body>
+</html>
