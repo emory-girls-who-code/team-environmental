@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+			body {
+				background-color:rgb(204, 252, 255);
+				text-align: center;
+			}
+			h1 {font-family: 'Pacifico', cursive;
+		    color: black;
+				text-align: center;
+				font-size:50px;
+			}
+			h2 {font-family: 'Pacifico', cursive;
+				color: black;
+				font-size:35px;
+			}
+			h3 {font-family: 'Pacifico', cursive;
+				color: black;
+				font-size:25px;
+			}
+myResults=="Display the results here"
+			p { font-family: 'Muli', sans-serif;
+			font-size:25px;
+			  color:black; 
+			}
+			div.column {
+				float: center;\
+				width: 100%;
+			}
+			img {
+				border: 10px solid white;
+			}
+			img.black {
+				border: 10px solid black;
+				margin-bottom: 30px;
+				width:100px;
+			}
+			</style>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <img class= 'black' src="https://image.freepik.com/foto-gratis/mano-icono-agua-que-gotea_53876-84475.jpg" >
+
+    <h1><strong>H</strong>elp<strong>2</strong><strong>O</strong>ceans
+    <br>
+    <a href="https://volunteer-page-water-pollution--efeckie.repl.co/" font>Find volunteering opportunities</a>
+    <br>
+    <a href="https://Changing-Your-Everyday-Actions--coolcat12.repl.co" font>How to change your everyday actions</a>
+    <br>
+    <a href="https://About-us--ssaaved.repl.co" font>About us</a>
+    <br>
+    <a href="https://AzureCumbersomeRuby--five-nine.repl.co" font>How to prevent pollution</a>
+
+  </body>
+</html>
